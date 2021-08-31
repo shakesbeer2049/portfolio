@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Roboto+Mono:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("/media/back2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    font-size: 24px;
+}
+.container{
+    margin: auto;
+    height: 100vh;
+    width: 100%;
+}
+
+
+img{
+    width: 100%;
+    height: auto;
+}
+.navbar ul  {
+    display: flex;
+    list-style: none;
+    padding: 5px;
+    font-family: 'Merriweather', serif;
+    background-color: rgba(0, 0, 0, 0.609);
+}
+.skills{
+    margin-left: 57%;
+}
+.about, .contact{
+    margin-left: 5%;
+}
+.center{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    margin-top: 7%; 
+    
+}
+h1{
+    padding-bottom: 1%;
+    font-weight: 400;
+}
+h2{
+    margin: auto;
+    width: 13ch;
+    font-weight: 300;
+    animation: typewriter 2s steps(45);
+    white-space: nowrap;
+    overflow: hidden;
+    
+}
+
+.icons{
+    margin-bottom: 13%;
+}
+.icons ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.icons li{
+    list-style: none;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.icons a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 2em;
+}
+.arrow{
+    color: whitesmoke;
+    font-size: 2em;
+    text-align: center;
+    
+    animation-duration: 1s;
+    animation-name: slidedown ;
+    animation-iteration-count: infinite;
+    
+}
+.arrow a{
+    color: whitesmoke;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    height: 47%;
+    align-items: flex-end;
+ }
+
+ .icons a:hover{
+     color: red;
+     }
+
+.icons li:hover{ 
+    transform: translateY(-1.5px);
+   
+    }
+
+.arrow a :hover{
+    color: teal;
+     
+}
+
+@keyframes slidedown {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    
+}
+
+@keyframes typewriter {
+    from{
+        width: 0;
+    }
+    
+}
+
