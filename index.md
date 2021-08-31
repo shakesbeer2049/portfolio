@@ -30,7 +30,7 @@
 
         <div class="icons">
             <ul>
-                <li><a href="./ZubCv.pdf" target="_blank" ><ion-icon name="document-text-outline"  ></ion-icon></a></li>
+                <li><a href="CV_Sept.pdf" target="_blank" ><ion-icon name="document-text-outline"  ></ion-icon></a></li>
                 <li><a href="https://github.com/shakesbeer2049" target="_blank"><ion-icon name="logo-github"></ion-icon></a></li>
                 <li><a href="https://www.linkedin.com/in/sheikhzubair2049/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
             </ul>

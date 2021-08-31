@@ -5,6 +5,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     background-image: url("/media/back2.jpg");
@@ -31,6 +34,10 @@ img{
     font-family: 'Merriweather', serif;
     background-color: rgba(0, 0, 0, 0.609);
 }
+.navbar a {
+    text-decoration: none;
+    color: whitesmoke;
+}
 .skills{
     margin-left: 57%;
 }
@@ -47,7 +54,7 @@ h1{
     padding-bottom: 1%;
     font-weight: 400;
 }
-h2{
+.center h2{
     margin: auto;
     width: 13ch;
     font-weight: 300;
@@ -55,6 +62,11 @@ h2{
     white-space: nowrap;
     overflow: hidden;
     
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .icons{
@@ -80,12 +92,11 @@ h2{
     color: whitesmoke;
     font-size: 2em;
     text-align: center;
-    
     animation-duration: 1s;
     animation-name: slidedown ;
     animation-iteration-count: infinite;
-    
 }
+
 .arrow a{
     color: whitesmoke;
 }
@@ -96,9 +107,9 @@ footer {
     height: 47%;
     align-items: flex-end;
  }
-
+ 
  .icons a:hover{
-     color: red;
+     color: teal;
      }
 
 .icons li:hover{ 
@@ -109,6 +120,47 @@ footer {
 .arrow a :hover{
     color: teal;
      
+}
+.container2{
+    height: 50vh;
+}
+
+#section2 h1{
+    text-align: center;
+    margin-top: 15%;
+}
+.navbar li a:hover{
+    color: tomato;
+    border-bottom: 4px solid tomato;
+}
+#skills-section{
+    height: 50vh;
+}
+#skills-section h2{
+    margin-bottom: 5%;
+    text-align: center;
+    color: whitesmoke;
+    box-shadow: inset 0 0 11px whitesmoke;
+    
+
+}
+.skills-list{
+    display: flex;
+    font-size: 3em;
+    justify-content: space-around;
+    padding-left: 15%;
+    padding-right: 15%;
+    list-style: none;
+    color: tomato;
+}
+.css-icon{
+    color: rgb(12, 9, 216);
+}
+.js-icon{
+    color: black;
+}
+.react-icon{
+    color: rgb(30, 106, 149);
 }
 
 @keyframes slidedown {
