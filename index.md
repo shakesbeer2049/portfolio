@@ -45,4 +45,8 @@
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 <script src="/scripts/script.js"></script>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> ca36b1b5b6e2cbaf938d521430b6162fdda77a94
