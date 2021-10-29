@@ -10,7 +10,7 @@ html{
 }
 
 body{
-    background-image: url("/media/back2.jpg");
+    background-image: url("/media/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: whitesmoke;
@@ -129,6 +129,11 @@ footer {
     text-align: center;
     margin-top: 15%;
 }
+
+#section2 p{
+    text-align: center;
+}
+
 .navbar li a:hover{
     color: tomato;
     border-bottom: 4px solid tomato;
@@ -143,6 +148,11 @@ footer {
     box-shadow: inset 0 0 11px whitesmoke;
     
 
+}
+#skills-section a{
+   text-decoration: none;
+   color: rgb(182, 42, 17);
+   
 }
 .skills-list{
     display: flex;
