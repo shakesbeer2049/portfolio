@@ -1,61 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/style.css">
-    <link href='https://css.gg/add.css' rel='stylesheet'>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link href="https://css.gg/add.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+        </style> 
     <title>Portfolio</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
+      <div class="navbar">
+        <ul>
+          <li><a>Sheikh Zubair</a></li>
+          <li class="skills"><a href="#skills-section">Skills</a></li>
+          <li class="about"><a href="#section2">Bio</a></li>
+          <li class="contact"><a href="CV_Final.pdf" target="_blank">Resume</a></li>
+        </ul>
+      </div>
 
-        <div class="navbar">
-            <ul>
-                <li><a>Sheikh Zubair</a></li>
-                <li class="skills"><a href="#skills-section">Skills</a></li>
-                <li class="about"><a>Bio</a></li>
-                <li class="contact"><a>Contact</a></li>
-            </ul>
+      <div class="center">
+        <h1>Hi, I'm Sheikh Zubair</h1>
 
-        </div>
+        <h2 class="web-dev">Web Developer</h2>
+      </div>
 
-        <div class="center">
-            <h1>Hi, I'm Sheikh Zubair</h1>
-
-            <h2>Web Developer</h2>
-
-        </div>
-
-        <div class="icons">
-            <ul>
-                <li><a href="CV_Sept.pdf" target="_blank" ><ion-icon name="document-text-outline"  ></ion-icon></a></li>
-                <li><a href="https://github.com/shakesbeer2049" target="_blank"><ion-icon name="logo-github"></ion-icon></a></li>
-                <li><a href="https://www.linkedin.com/in/sheikhzubair2049/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
-            </ul>
-        </div>
-        <p class="arrow"><a href="#skills-section" ><ion-icon name="arrow-down-outline"></ion-icon> </a></p>
-        <!-- <footer>
+      <div class="icons">
+        <ul>
+          <li>
+            <a href="CV_Final.pdf" target="_blank"
+              ><ion-icon name="document-text-outline"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com/shakesbeer2049" target="_blank"
+              ><ion-icon name="logo-github"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/sheikhzubair2049/"
+              target="_blank"
+              ><ion-icon name="logo-linkedin"></ion-icon
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <p class="arrow">
+        <a href="#project"><ion-icon name="arrow-down-outline"></ion-icon> </a>
+      </p>
+      <!-- <footer>
             made with html and css and javascript
         </footer> -->
     </div>
-    <div id="skills-section">
-        <h2>Skills</h2>
-        <ul class="skills-list">
-            <li><i class="fab fa-html5"></i></li>
-            <li><i class="fab fa-css3-alt css-icon"></i></li>
-            <li><i class="fab fa-js-square js-icon"></i></li>
-            <li><i class="fab fa-react react-icon"></i></li>
-        </ul>
-    </div>
+    <h1>Projects</h1>
+    <div class="projects" id="project">
+      <a class="item item1" href="https://github.com/shakesbeer2049/Countries-Reactjs" target="_blank"> 
+        <img src="./media/cd.png" alt="Countries"/>
+      <div class="overlay">
+          <div class="overlay-text">
+              <h3>Countries</h3>
+              <p>Shows the data of countries like population , flag , capital etc</p>
+            
+            </div>
+        </div>
+    </a>
+      
+      <a class="item item2" href="https://github.com/shakesbeer2049/charitable" target="_blank"
+        ><img src="./media/charitable.png" alt="Charitable"
+      /> <div class="overlay">
+        <div class="overlay-text">
+            <h3>Charitable</h3>
+            <p>Charity Web App</p>
+          </div>
+      </div>
+    </a>
 
-    <div class="container2" id="section2">
-        <h1>Work in progress...</h1>
+      <a class="item item3" href="https://github.com/shakesbeer2049/weather-js"  target="_blank"
+        ><img src="./media/weather.png" alt="Weather"
+      /> <div class="overlay">
+        <div class="overlay-text">
+            <h3>WeatherJS</h3>
+            <p>Simple weather app</p>
+          </div>
+      </div>
+    </a>
+
+      <a class="item item4" href="https://github.com/shakesbeer2049/tourismWebsite"  target="_blank"
+        ><img src="./media/travel.png" alt="Travel"
+      /> <div class="overlay">
+        <div class="overlay-text">
+            <h3>Travel</h3>
+            <p>Tourism website landing page</p>
+          </div>
+      </div>
+    </a>
+
+      <a class="item item5" href="https://github.com/shakesbeer2049/toDoList"  target="_blank"
+        ><img src="./media/todo.png" alt="To-do"
+      /> <div class="overlay">
+        <div class="overlay-text">
+            <h3>To-do List</h3>
+            <p>A simple to-do list</p>
+          </div>
+      </div>
+    </a>
+
     </div>
-</body>
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-<script src="/scripts/script.js"></script>
+    <div id="skills-section">
+      <h1>Skills</h1>
+      <ul class="skills-list">
+        <li>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+            ><i class="fab fa-html5"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+            ><i class="fab fa-css3-alt css-icon"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+            ><i class="fab fa-js-square js-icon"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://reactjs.org/"
+            ><i class="fab fa-react react-icon"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://nodejs.org/en/"
+            ><i class="fab fa-node node-icon"></i
+          ></a>
+        </li>
+      </ul>
+    </div>
+    <div class="container2" id="section2">
+      <h1>About me</h1>
+      <p class="bio">
+        I’m a web developer. I spend my whole day experimenting with HTML, CSS,
+        and JavaScript. Furthermore, I’m curious, and I enjoy work that
+        challenges me to learn something new and stretch in a different
+        direction. The list of projects on GitHub will give you a good idea of
+        the types of tools I use
+      </p>
+    </div>
+  </body>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
+  <script src="/scripts/script.js"></script>
 </html>
