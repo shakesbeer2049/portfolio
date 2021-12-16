@@ -173,7 +173,7 @@ h1 {
   height: 250px;
   width: 300px;
 }
-.item4 {
+/* .item4 {
   grid-row: 2/2;
   grid-column-start: 1;
   grid-column-end: 3;
@@ -182,7 +182,7 @@ h1 {
   grid-row: 2/2;
   grid-column-start: 2;
   grid-column-end: 4;
-}
+} */
 
 /* .item5{
     margin-left: 329px;
