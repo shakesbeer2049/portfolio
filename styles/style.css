@@ -275,10 +275,7 @@ span{
     column-gap: 50px;
   
     }
-    .container2{
-      border: 5px solid red;
-      
-    }
+    
    
     .item4 {
       grid-row: auto;
