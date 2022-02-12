@@ -27,28 +27,24 @@ img {
   width: 100%;
   height: auto;
 }
-.navbar ul {
+nav ul {
   display: flex;
   list-style: none;
   padding: 5px;
   font-family: "Merriweather", serif;
+  justify-content: end;
   
 }
-.navbar a {
+nav a {
   text-decoration: none;
   color: whitesmoke;
+  padding: 1.1rem;
 }
-.skills {
-  margin-left: 57%;
-}
-.about,
-.contact {
-  margin-left: 5%;
-}
+
 .center {
   font-family: "Roboto Mono", monospace;
   text-align: center;
-  margin-top: 7%;
+  margin-top: 13%;
 }
 h1 {
   padding-bottom: 1%;
@@ -119,8 +115,8 @@ footer {
   color: teal;
 }
 .container2 {
-  height: 50vh;
-  width: 900px;
+  height: fit-content;
+  width: fit-content;
   margin: auto;
 }
 
@@ -202,31 +198,38 @@ h1 {
   text-align: center;
 }
 
-.navbar li a:hover {
+nav li a:hover {
   color: tomato;
   border-bottom: 4px solid tomato;
 }
 #skills-section {
-  height: 50vh;
+  height: fit-content;
 }
-#skills-section h1 {
+/* #skills-section h1 {
   margin-top: 150px;
   margin-bottom: 69px;
   text-align: center;
   color: whitesmoke;
-}
+} */
 #skills-section a {
   text-decoration: none;
   color: rgb(182, 42, 17);
+  text-align: center;
 }
 .skills-list {
   display: flex;
-  font-size: 3em;
+  flex-wrap: wrap;
+  font-size: 2.5em;
   justify-content: space-around;
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
   list-style: none;
   color: whitesmoke;
+}
+span{
+  font-size: x-large;
+  margin:auto;
 }
 .css-icon {
   color: rgb(12, 9, 216);
@@ -236,6 +239,14 @@ h1 {
 }
 .react-icon {
   color: rgb(30, 106, 149);
+}
+.bio{
+  width: 51%;
+  margin:auto;
+  margin-bottom: 1rem;
+}
+span{
+  color: orangered;
 }
 
 @keyframes slidedown {
@@ -264,6 +275,10 @@ h1 {
     column-gap: 50px;
   
     }
+    .container2{
+      border: 5px solid red;
+      
+    }
    
     .item4 {
       grid-row: auto;
@@ -277,8 +292,10 @@ h1 {
 }
 @media (max-width:900px) {
  
-  .navbar ul{
-    width: 70%;
+ nav ul{
+    width: fit-content;
+    margin:auto;
+    
    
   }
   .container2{
@@ -289,6 +306,7 @@ h1 {
   }
   .bio{
     width: fit-content;
+    padding: 10px;
   }
   .projects{
   display: grid;
@@ -310,5 +328,13 @@ h1 {
     grid-row: auto;
     grid-column: auto;
   }
+
+  .skills-list{
+    padding: 7%;
+  }
+  .skills-list li{
+    padding: 7%;
+  }
+  
 }
 

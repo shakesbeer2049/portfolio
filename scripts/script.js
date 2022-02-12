@@ -1,6 +1,6 @@
 window.onscroll = () => myFunction();
 
-const navbar = document.querySelector(".navbar")
+const navbar = document.querySelector("nav")
 
 const sticky = navbar.offsetTop
 

@@ -13,20 +13,21 @@
       crossorigin="anonymous"
     />
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
-        </style> 
+      @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap");
+    </style>
     <title>Portfolio</title>
   </head>
   <body>
     <div class="container">
-      <div class="navbar">
+      <nav>
         <ul>
-          <li><a>Sheikh Zubair</a></li>
           <li class="skills"><a href="#skills-section">Skills</a></li>
           <li class="about"><a href="#section2">Bio</a></li>
-          <li class="contact"><a href="CV_Final.pdf" target="_blank">Resume</a></li>
+          <li class="resume">
+            <a href="CV_Final.pdf" target="_blank">Resume</a>
+          </li>
         </ul>
-      </div>
+      </nav>
 
       <div class="center">
         <h1>Hi, I'm Sheikh Zubair</h1>
@@ -64,94 +65,128 @@
     </div>
     <h1>Projects</h1>
     <div class="projects" id="project">
-      <a class="item item1" href="https://github.com/shakesbeer2049/Countries-Reactjs" target="_blank"> 
-        <img src="./media/cd.png" alt="Countries"/>
-      <div class="overlay">
+      <a
+        class="item item1"
+        href="https://github.com/shakesbeer2049/Countries-Reactjs"
+        target="_blank"
+      >
+        <img src="./media/cd.png" alt="Countries" />
+        <div class="overlay">
           <div class="overlay-text">
-              <h3>Countries</h3>
-              <p>Shows the data of countries like population , flag , capital etc (Reactjs)</p>
-            
-            </div>
+            <h3>Countries</h3>
+            <p>
+              Shows the data of countries like population , flag , capital etc
+              (Reactjs)
+            </p>
+          </div>
         </div>
-    </a>
-      
-      <a class="item item2" href="https://github.com/shakesbeer2049/charitable" target="_blank"
-        ><img src="./media/charitable.png" alt="Charitable"
-      /> <div class="overlay">
-        <div class="overlay-text">
+      </a>
+
+      <a
+        class="item item2"
+        href="https://github.com/shakesbeer2049/charitable"
+        target="_blank"
+        ><img src="./media/charitable.png" alt="Charitable" />
+        <div class="overlay">
+          <div class="overlay-text">
             <h3>Charitable</h3>
             <p>Charity Web App (Nodejs,ejs,Mongodb)</p>
           </div>
-      </div>
-    </a>
+        </div>
+      </a>
 
-      <a class="item item3" href="https://github.com/shakesbeer2049/weather-js"  target="_blank"
-        ><img src="./media/weather.png" alt="Weather"
-      /> <div class="overlay">
-        <div class="overlay-text">
+      <a
+        class="item item3"
+        href="https://github.com/shakesbeer2049/weather-js"
+        target="_blank"
+        ><img src="./media/weather.png" alt="Weather" />
+        <div class="overlay">
+          <div class="overlay-text">
             <h3>WeatherJS</h3>
             <p>Simple weather app (Vanilla JS)</p>
           </div>
-      </div>
-    </a>
+        </div>
+      </a>
 
-      <a class="item item4" href="https://github.com/shakesbeer2049/tourismWebsite"  target="_blank"
-        ><img src="./media/travel.png" alt="Travel"
-      /> <div class="overlay">
-        <div class="overlay-text">
+      <a
+        class="item item4"
+        href="https://github.com/shakesbeer2049/tourismWebsite"
+        target="_blank"
+        ><img src="./media/travel.png" alt="Travel" />
+        <div class="overlay">
+          <div class="overlay-text">
             <h3>Travel</h3>
             <p>Tourism website landing page (HTML/CSS/JS)</p>
           </div>
-      </div>
-    </a>
+        </div>
+      </a>
 
-      <a class="item item5" href="https://github.com/shakesbeer2049/toDoList"  target="_blank"
-        ><img src="./media/todo.png" alt="To-do"
-      /> <div class="overlay">
-        <div class="overlay-text">
+      <a
+        class="item item5"
+        href="https://github.com/shakesbeer2049/toDoList"
+        target="_blank"
+        ><img src="./media/todo.png" alt="To-do" />
+        <div class="overlay">
+          <div class="overlay-text">
             <h3>To-do List</h3>
             <p>A simple to-do list (HTML/CSS/JS/JQ)</p>
           </div>
-      </div>
-    </a>
+        </div>
+      </a>
 
-    <a class="item item6" href="https://github.com/shakesbeer2049/Notes-react"  target="_blank"
-    ><img src="./media/React-notes.png" alt="To-do"
-  /> <div class="overlay">
-    <div class="overlay-text">
-        <h3>Notes</h3>
-        <p>Notes App (Reactjs)</p>
-      </div>
-  </div>
-</a>
+      <a
+        class="item item6"
+        href="https://github.com/shakesbeer2049/Notes-react"
+        target="_blank"
+        ><img src="./media/React-notes.png" alt="To-do" />
+        <div class="overlay">
+          <div class="overlay-text">
+            <h3>Notes</h3>
+            <p>Notes App (Reactjs)</p>
+          </div>
+        </div>
+      </a>
 
+      <a
+        class="item item7"
+        href="https://github.com/shakesbeer2049/charitable"
+        target="_blank"
+        ><img src="./media/phonebook.png" alt="Charitable" />
+        <div class="overlay">
+          <div class="overlay-text">
+            <h3>Phonebook</h3>
+            <p>Phonebook (Reactjs)</p>
+          </div>
+        </div>
+      </a>
     </div>
     <div id="skills-section">
       <h1>Skills</h1>
       <ul class="skills-list">
         <li>
           <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"
-            ><i class="fab fa-html5"></i
-          ></a>
-        </li>
+            ><i class="fab fa-html5"><br><span>HTML</span></i
+          > </a>
+        </li> 
+        
         <li>
           <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"
-            ><i class="fab fa-css3-alt css-icon"></i
+            ><i class="fab fa-css3-alt css-icon"><br><span>CSS</span></i
           ></a>
         </li>
         <li>
           <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-            ><i class="fab fa-js-square js-icon"></i
+            ><i class="fab fa-js-square js-icon"><br><span>JS</span></i
           ></a>
         </li>
         <li>
           <a href="https://reactjs.org/"
-            ><i class="fab fa-react react-icon"></i
+            ><i class="fab fa-react react-icon"><br><span>Reactjs</span></i
           ></a>
         </li>
         <li>
           <a href="https://nodejs.org/en/"
-            ><i class="fab fa-node node-icon"></i
+            ><i class="fab fa-node node-icon"><br><span>Nodejs</span></i
           ></a>
         </li>
       </ul>
@@ -159,11 +194,11 @@
     <div class="container2" id="section2">
       <h1>About me</h1>
       <p class="bio">
-        I’m a web developer. I spend my whole day experimenting with HTML, CSS,
-        and JavaScript. Furthermore, I’m curious, and I enjoy work that
+        I’m a web developer. I spend most of my day experimenting with <span>HTML, CSS,
+          and JavaScript</span>. Furthermore, I’m curious, and I enjoy work that
         challenges me to learn something new and stretch in a different
-        direction. The list of projects on GitHub will give you a good idea of
-        the types of tools I use
+        direction. The list of projects on GitHub will give you a good idea about the tech i use.
+        P.S It's <span> MERN </span>.
       </p>
     </div>
   </body>
@@ -175,5 +210,5 @@
     nomodule
     src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
   ></script>
-  <script src="/scripts/script.js"></script>
+  <script async src="/scripts/script.js"></script>
 </html>
